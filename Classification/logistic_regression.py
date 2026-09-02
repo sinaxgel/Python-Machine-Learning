@@ -1,4 +1,8 @@
 import csv
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import numpy as np
 import random
 from sklearn.linear_model import LogisticRegression
